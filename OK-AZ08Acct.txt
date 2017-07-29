@@ -1,0 +1,41 @@
+ 
+Starting batch on Fri 07/21/17 
+64-bit Metric file copy successful to AZ082UA3411W69 at 16:08:36.20 with result 1 
+64-bit Harley file copy successful to AZ082UA3411W69 at 16:11:17.33 with result 1 
+64-bit MeTest file copy successful to AZ082UA3411W69 at 16:13:55.54 with result 1 
+64-bit HDTest file copy successful to AZ082UA3411W69 at 16:16:14.66 with result 1 
+64-bit Metric file copy successful to AZ082UA3502HKP at 16:19:11.71 with result 1 
+64-bit Harley file copy successful to AZ082UA3502HKP at 16:22:08.55 with result 1 
+64-bit MeTest file copy successful to AZ082UA3502HKP at 16:25:25.90 with result 1 
+64-bit HDTest file copy successful to AZ082UA3502HKP at 16:28:40.65 with result 1 
+64-bit Metric file copy successful to AZ08MXL2470C2G at 16:31:44.22 with result 1 
+64-bit Harley file copy successful to AZ08MXL2470C2G at 16:34:45.12 with result 1 
+64-bit MeTest file copy successful to AZ08MXL2470C2G at 16:37:44.33 with result 1 
+64-bit HDTest file copy successful to AZ08MXL2470C2G at 16:40:42.03 with result 1 
+64-bit Metric file copy successful to AZH12UA016033K at 16:43:36.01 with result 1 
+64-bit Harley file copy successful to AZH12UA016033K at 16:44:20.53 with result 0 
+64-bit MeTest file copy successful to AZH12UA016033K at 16:47:38.42 with result 1 
+64-bit HDTest file copy successful to AZH12UA016033K at 16:50:32.03 with result 1 
+32-bit Metric file copy successful to AZH12UA02402RK at 16:53:33.86 with result 1 
+32-bit Harley file copy successful to AZH12UA02402RK at 16:54:21.48 with result 0 
+32-bit MeTest file copy successful to AZH12UA02402RK at 16:57:23.40 with result 1 
+32-bit HDTest file copy successful to AZH12UA02402RK at 17:00:35.88 with result 1 
+32-bit Metric file copy successful to AZH1MXL9250YX1 at 17:03:37.38 with result 1 
+32-bit Harley file copy successful to AZH1MXL9250YX1 at 17:05:59.26 with result 1 
+32-bit MeTest file copy successful to AZH1MXL9250YX1 at 17:08:28.93 with result 1 
+32-bit HDTest file copy successful to AZH1MXL9250YX1 at 17:10:45.25 with result 1 
+32-bit Metric file copy successful to AZH1MXL9480L88 at 17:13:04.52 with result 1 
+32-bit Harley file copy successful to AZH1MXL9480L88 at 17:15:22.15 with result 1 
+32-bit MeTest file copy successful to AZH1MXL9480L88 at 17:17:43.73 with result 1 
+32-bit HDTest file copy successful to AZH1MXL9480L88 at 17:20:03.38 with result 1 
+Finished processing at 17:20:03.49 
+
+Starting batch on Sat 07/22/17 13:18:34.37 for AZ08 Accounting 
+64-bit Metric file copy to azh1mxl24709ql at 13:25:09.19 completed with no errors. 
+64-bit Harley file copy to azh1mxl24709ql at 13:27:22.03 completed with no errors. 
+64-bit MeTest file copy to azh1mxl24709ql at 13:29:34.53 completed with no errors. 
+64-bit HDTest file copy to azh1mxl24709ql at 13:31:46.54 completed with no errors. 
+64-bit Harley file copy to az082ua3411w7g at 13:36:32.59 completed with no errors. 
+64-bit Metric file copy to az082ua3411w7g at 13:36:48.84 completed with no changes (files identical) 
+64-bit MeTest file copy to az082ua3411w7g at 13:38:49.01 completed with no errors. 
+64-bit HDTest file copy to az082ua3411w7g at 13:40:59.41 completed with no errors. 

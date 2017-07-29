@@ -1,0 +1,163 @@
+ 
+Starting batch on Thu 07/27/17 16:27:12.67  
+32-bit MeTest file copy to AZ012UA0030N2S at 16:48:14.88 completed with no errors. 
+32-bit MeTest file copy to AZ012UA0080RF0 at 17:03:22.98 completed with no errors. 
+32-bit MeTest file copy to AZ012UA0100ZL8 at 17:06:02.12 completed with no changes (files identical) 
+32-bit MeTest file copy to AZ012UA01011ZV at 17:07:20.11 completed with no changes (files identical) 
+32-bit MeTest file copy to AZ012UA01012RN at 17:08:26.78 completed with no errors. 
+32-bit MeTest file copy to AZ012UA01012WR at 17:09:48.75 completed with no errors. 
+32-bit MeTest file copy to AZ012UA0121DV3 at 17:10:54.04 completed with no errors. 
+32-bit MeTest file copy to AZ012UA0130R9F at 17:11:57.29 completed with no errors. 
+32-bit MeTest file copy to AZ012UA0130RBC at 17:13:07.74 completed with no errors. 
+32-bit MeTest file copy to AZ012UA01924NT at 17:14:20.67 completed with no errors. 
+64-bit MeTest file copy to AZ012UA0231YRB at 17:15:28.04 completed with no errors. 
+64-bit MeTest file copy to AZ012UA1140JGP at 17:15:42.70 completed with extra files detected in destination. Missing files copied. 
+32-bit MeTest file copy to AZ012UA1440Q6H at 17:16:51.56 completed with no errors. 
+32-bit MeTest file copy to AZ012UA145055N at 17:18:10.00 completed with no errors. 
+ 
+Starting batch on Thu 07/27/17 22:30:32.40 (MTM) 
+32-bit Metric file copy to AZ012UA0030N2S at 22:32:01.78 completed with no errors. 
+32-bit MeTest file copy to AZ012UA0030N2S at 22:32:12.69 completed with no changes (files identical) 
+32-bit Metric file copy to AZ012UA0080RF0 at 22:33:13.97 completed with no errors. 
+32-bit MeTest file copy to AZ012UA0080RF0 at 22:33:21.47 completed with no changes (files identical) 
+32-bit Metric file copy to AZ012UA0100ZL8 at 22:34:26.83 completed with no errors. 
+32-bit MeTest file copy to AZ012UA0100ZL8 at 22:34:34.95 completed with no changes (files identical) 
+32-bit Metric file copy to AZ012UA01011ZV at 22:35:40.17 completed with no errors. 
+32-bit MeTest file copy to AZ012UA01011ZV at 22:35:51.05 completed with no changes (files identical) 
+Finished processing at 22:35:51.07 
+ 
+Starting batch on Thu 07/27/17 22:36:33.84 (MTM) 
+32-bit Metric file copy to AZ012UA0030N2S at 22:36:52.67 completed with no changes (files identical) 
+32-bit MeTest file copy to AZ012UA0030N2S at 22:37:01.52 completed with no changes (files identical) 
+32-bit Metric file copy to AZ012UA0080RF0 at 22:37:11.12 completed with no changes (files identical) 
+32-bit MeTest file copy to AZ012UA0080RF0 at 22:37:19.19 completed with no changes (files identical) 
+32-bit Metric file copy to AZ012UA0100ZL8 at 22:37:28.04 completed with no changes (files identical) 
+32-bit MeTest file copy to AZ012UA0100ZL8 at 22:37:35.07 completed with no changes (files identical) 
+32-bit Metric file copy to AZ012UA01011ZV at 22:37:44.17 completed with no changes (files identical) 
+32-bit MeTest file copy to AZ012UA01011ZV at 22:37:52.57 completed with no changes (files identical) 
+32-bit Metric file copy to AZ012UA01012RN at 22:38:55.10 completed with no errors. 
+32-bit MeTest file copy to AZ012UA01012RN at 22:39:04.25 completed with extra files detected in destination. Missing files copied. 
+32-bit Metric file copy to AZ012UA01012WR at 22:40:14.13 completed with no errors. 
+32-bit MeTest file copy to AZ012UA01012WR at 22:40:23.76 completed with no changes (files identical) 
+32-bit Metric file copy to AZ012UA0121DV3 at 22:41:28.04 completed with no errors. 
+32-bit MeTest file copy to AZ012UA0121DV3 at 22:41:36.55 completed with no changes (files identical) 
+32-bit Metric file copy to AZ012UA0130R9F at 22:42:38.18 completed with no errors. 
+32-bit MeTest file copy to AZ012UA0130R9F at 22:42:46.19 completed with no changes (files identical) 
+32-bit Metric file copy to AZ012UA0130RBC at 22:43:50.42 completed with no errors. 
+32-bit MeTest file copy to AZ012UA0130RBC at 22:43:59.02 completed with no changes (files identical) 
+32-bit MeTest file copy to AZ012UA01924NT at 22:44:14.06 completed with no changes (files identical) 
+64-bit Metric file copy to AZ012UA0231YRB at 22:45:21.32 completed with no errors. 
+64-bit MeTest file copy to AZ012UA0231YRB at 22:45:30.64 completed with no changes (files identical) 
+32-bit Metric file copy to AZ012UA0311GSX at 22:46:39.63 completed with no errors. 
+32-bit MeTest file copy to AZ012UA0311GSX at 22:47:43.22 completed with no errors. 
+64-bit Metric file copy to AZ012UA1140JGP at 22:47:52.61 completed with no changes (files identical) 
+64-bit MeTest file copy to AZ012UA1140JGP at 22:48:00.52 completed with extra files detected in destination. No files copied. 
+32-bit Metric file copy to AZ012UA1440Q6H at 22:49:07.36 completed with no errors. 
+32-bit MeTest file copy to AZ012UA1440Q6H at 22:49:16.58 completed with no changes (files identical) 
+32-bit Metric file copy to AZ012UA145055N at 22:50:23.77 completed with no errors. 
+32-bit MeTest file copy to AZ012UA145055N at 22:50:32.98 completed with no changes (files identical) 
+32-bit Metric file copy to AZ012UA14506VG at 22:51:47.36 completed with no errors. 
+32-bit MeTest file copy to AZ012UA14506VG at 22:52:47.75 completed with no errors. 
+64-bit Metric file copy to AZ012UA2181H3T at 22:53:58.00 completed with no errors. 
+64-bit MeTest file copy to AZ012UA2181H3T at 22:54:07.35 completed with no changes (files identical) 
+64-bit Metric file copy to AZ012UA242240D at 22:54:22.40 completed with extra files detected in destination. Missing files copied. 
+64-bit MeTest file copy to AZ012UA242240D at 22:55:02.03 completed with no errors. 
+64-bit Metric file copy to AZ012UA3411W58 at 22:56:09.42 completed with no errors. 
+64-bit MeTest file copy to AZ012UA3411W58 at 22:57:07.05 completed with no errors. 
+64-bit Metric file copy to AZ012UA3411W6N at 22:58:15.87 completed with no errors. 
+64-bit MeTest file copy to AZ012UA3411W6N at 22:59:11.83 completed with no errors. 
+32-bit Metric file copy to AZ012UA827136S at 23:00:32.27 completed with no errors. 
+32-bit MeTest file copy to AZ012UA827136S at 23:01:31.76 completed with no errors. 
+32-bit Metric file copy to AZ012UA9040M73 at 23:02:40.43 completed with no errors. 
+32-bit MeTest file copy to AZ012UA9040M73 at 23:03:35.95 completed with no errors. 
+64-bit Metric file copy to AZ012UA9260144 at 23:04:43.76 completed with no errors. 
+64-bit MeTest file copy to AZ012UA9260144 at 23:05:36.76 completed with no errors. 
+64-bit Metric file copy to AZ012UA92602ZZ at 23:06:41.14 completed with no errors. 
+64-bit MeTest file copy to AZ012UA92602ZZ at 23:07:37.72 completed with no errors. 
+64-bit Metric file copy to AZ012UA92608L5 at 23:08:05.83 completed with no errors. 
+64-bit MeTest file copy to AZ012UA92608L5 at 23:08:26.28 completed with no errors. 
+32-bit Metric file copy to AZ012UA9261SZT at 23:09:30.81 completed with no errors. 
+32-bit MeTest file copy to AZ012UA9261SZT at 23:10:27.19 completed with no errors. 
+32-bit Metric file copy to AZ012UA92906LS at 23:11:36.20 completed with no errors. 
+32-bit MeTest file copy to AZ012UA92906LS at 23:12:32.16 completed with no errors. 
+32-bit Metric file copy to AZ012UA93601VL at 23:13:40.67 completed with no errors. 
+32-bit MeTest file copy to AZ012UA93601VL at 23:14:37.02 completed with no errors. 
+64-bit Metric file copy to AZ012UA93601Z4 at 23:15:42.19 completed with no errors. 
+64-bit MeTest file copy to AZ012UA93601Z4 at 23:16:36.92 completed with no errors. 
+32-bit Metric file copy to AZ01MXL0080D1Z at 23:17:55.77 completed with no errors. 
+32-bit MeTest file copy to AZ01MXL0080D1Z at 23:18:51.29 completed with no errors. 
+64-bit Metric file copy to AZ01MXL0151XGL at 23:20:00.03 completed with no errors. 
+64-bit MeTest file copy to AZ01MXL0151XGL at 23:20:56.71 completed with no errors. 
+32-bit Metric file copy to AZ01MXL02416D2 at 23:22:03.38 completed with no errors. 
+32-bit MeTest file copy to AZ01MXL02416D2 at 23:22:58.64 completed with no errors. 
+64-bit Metric file copy to AZ01MXL02416D3 at 23:24:05.87 completed with no errors. 
+64-bit MeTest file copy to AZ01MXL02416D3 at 23:25:01.85 completed with no errors. 
+64-bit Metric file copy to AZ01MXL1111VFV at 23:26:14.56 completed with no errors. 
+64-bit MeTest file copy to AZ01MXL1111VFV at 23:27:11.16 completed with no errors. 
+32-bit Metric file copy to AZ01MXL1200D9Q at 23:28:24.06 completed with no errors. 
+32-bit MeTest file copy to AZ01MXL1200D9Q at 23:29:18.20 completed with no errors. 
+64-bit Metric file copy to AZ01MXL1230JG6 at 23:30:32.35 completed with no errors. 
+64-bit MeTest file copy to AZ01MXL1230JG6 at 23:31:29.91 completed with no errors. 
+32-bit Metric file copy to AZ01MXL1240C1Q at 23:31:42.61 completed with extra files detected in destination. Missing files copied. 
+32-bit MeTest file copy to AZ01MXL1240C1Q at 23:32:06.05 completed with no errors. 
+64-bit Metric file copy to AZ01MXL1520D9Q at 23:33:20.57 completed with no errors. 
+64-bit MeTest file copy to AZ01MXL1520D9Q at 23:34:18.18 completed with no errors. 
+64-bit Metric file copy to AZ01MXL1520DBD at 23:35:30.17 completed with no errors. 
+64-bit MeTest file copy to AZ01MXL1520DBD at 23:36:27.04 completed with no errors. 
+32-bit Metric file copy to AZ01MXL20326Y0 at 23:37:35.17 completed with no errors. 
+32-bit MeTest file copy to AZ01MXL20326Y0 at 23:38:32.86 completed with no errors. 
+64-bit Metric file copy to AZ01MXL20902CX at 23:39:45.84 completed with no errors. 
+64-bit MeTest file copy to AZ01MXL20902CX at 23:40:50.20 completed with no errors. 
+64-bit Metric file copy to AZ01MXL2111PTY at 23:42:00.49 completed with no errors. 
+64-bit MeTest file copy to AZ01MXL2111PTY at 23:42:56.60 completed with no errors. 
+64-bit Metric file copy to AZ01MXL2150JBL at 23:44:08.19 completed with no errors. 
+64-bit MeTest file copy to AZ01MXL2150JBL at 23:45:05.95 completed with no errors. 
+64-bit Metric file copy to AZ01MXL2150JBM at 23:46:16.86 completed with no errors. 
+64-bit MeTest file copy to AZ01MXL2150JBM at 23:47:14.48 completed with no errors. 
+64-bit Metric file copy to AZ01MXL24709P9 at 23:48:25.74 completed with no errors. 
+64-bit MeTest file copy to AZ01MXL24709P9 at 23:49:24.01 completed with no errors. 
+64-bit Metric file copy to AZ01MXL24709YZ at 23:50:33.00 completed with no errors. 
+64-bit MeTest file copy to AZ01MXL24709YZ at 23:51:29.00 completed with no errors. 
+64-bit Metric file copy to AZ01MXL3061WG8 at 23:52:48.63 completed with no errors. 
+64-bit MeTest file copy to AZ01MXL3061WG8 at 23:53:48.71 completed with no errors. 
+64-bit Metric file copy to AZ01MXL3140MN9 at 23:53:59.24 completed with extra files detected in destination. No files copied. 
+64-bit MeTest file copy to AZ01MXL3140MN9 at 23:55:03.73 completed with no errors. 
+64-bit Metric file copy to AZ01MXL3412J4B at 23:55:12.85 completed with no changes (files identical) 
+64-bit MeTest file copy to AZ01MXL3412J4B at 23:55:20.01 completed with extra files detected in destination. No files copied. 
+32-bit Metric file copy to AZ01MXL9040K03 at 23:56:24.70 completed with no errors. 
+32-bit MeTest file copy to AZ01MXL9040K03 at 23:57:19.00 completed with no errors. 
+32-bit Metric file copy to AZ01MXL948056M at 23:58:27.67 completed with no errors. 
+32-bit MeTest file copy to AZ01MXL948056M at 23:59:24.41 completed with no errors. 
+64-bit Metric file copy to AZ01MXL9510V4K at  0:00:27.80 completed with no errors. 
+64-bit MeTest file copy to AZ01MXL9510V4K at  0:01:21.00 completed with no errors. 
+32-bit Metric file copy to AZ022UA0030N0Q at  0:02:31.23 completed with no errors. 
+32-bit MeTest file copy to AZ022UA0030N0Q at  0:03:29.02 completed with no errors. 
+32-bit Metric file copy to AZ022UA0130R2Y at  0:04:36.74 completed with no errors. 
+32-bit MeTest file copy to AZ022UA0130R2Y at  0:05:32.15 completed with no errors. 
+32-bit Metric file copy to AZ022UA0321JTS at  0:06:48.97 completed with no errors. 
+32-bit MeTest file copy to AZ022UA0321JTS at  0:07:46.90 completed with no errors. 
+64-bit Metric file copy to AZ022UA1350NHV at  0:08:55.82 completed with no errors. 
+64-bit MeTest file copy to AZ022UA1350NHV at  0:09:52.46 completed with no errors. 
+64-bit Metric file copy to AZ022UA3240NFZ at  0:10:57.56 completed with no errors. 
+64-bit MeTest file copy to AZ022UA3240NFZ at  0:11:54.01 completed with no errors. 
+64-bit Metric file copy to AZ02MXL0152045 at  0:13:05.60 completed with no errors. 
+64-bit MeTest file copy to AZ02MXL0152045 at  0:14:05.75 completed with no errors. 
+32-bit Metric file copy to AZ02MXL03709XL at  0:15:14.68 completed with no errors. 
+32-bit MeTest file copy to AZ02MXL03709XL at  0:16:11.91 completed with no errors. 
+64-bit Metric file copy to AZ02MXL2150JBR at  0:17:26.50 completed with no errors. 
+64-bit MeTest file copy to AZ02MXL2150JBR at  0:18:24.61 completed with no errors. 
+32-bit Metric file copy to AZ02MXL2380X55 at  0:19:32.07 completed with no errors. 
+32-bit MeTest file copy to AZ02MXL2380X55 at  0:20:24.64 completed with no errors. 
+32-bit Metric file copy to AZ02Z2UA0231ZMH at  0:21:32.43 completed with no errors. 
+32-bit MeTest file copy to AZ02Z2UA0231ZMH at  0:22:27.38 completed with no errors. 
+32-bit Metric file copy to AZ02Z2UA023201F at  0:23:34.38 completed with no errors. 
+32-bit MeTest file copy to AZ02Z2UA023201F at  0:24:31.22 completed with no errors. 
+32-bit Metric file copy to AZ02Z2UA033025S at  0:25:41.95 completed with no errors. 
+32-bit MeTest file copy to AZ02Z2UA033025S at  0:26:38.52 completed with no errors. 
+32-bit Metric file copy to AZ02Z2UA03302HB at  0:26:48.43 completed with no changes (files identical) 
+32-bit MeTest file copy to AZ02Z2UA03302HB at  0:26:58.59 completed with extra files detected in destination. Missing files copied. 
+64-bit Metric file copy to WILLISMJ03UTEK at  0:28:15.24 completed with no errors. 
+64-bit MeTest file copy to WILLISMJ03UTEK at  0:29:14.94 completed with no errors. 
+64-bit Metric file copy to WILLISMJ03UTEW at  0:30:27.93 completed with no errors. 
+64-bit MeTest file copy to WILLISMJ03UTEW at  0:31:30.46 completed with no errors. 
+Finished processing at  0:31:30.48 
