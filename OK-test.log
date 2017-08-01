@@ -1,0 +1,75 @@
+ 
+Starting batch on Sat 07/29/17  0:03:55.67 (rem) 
+ 
+Starting batch on Sat 07/29/17  0:18:42.03 (uploaded lswhite.ico to support folder) 
+ 
+Starting batch on Sat 07/29/17  0:23:30.27 (uploaded lswhite.ico to support folder) 
+ 
+Starting batch on Sat 07/29/17  0:26:57.26 (uploaded lswhite.ico to support folder on rnssserver) 
+64-bit Metric file copy to nv042ua2440fdw at  0:27:29.02 completed with extra files detected in destination. No files copied. 
+Finished processing at  0:27:29.04 
+ 
+Starting batch on Sat 07/29/17  0:27:41.77  
+ 
+Starting batch on Sat 07/29/17  0:37:07.74 (network psexec. testing support files icon) 
+Finished processing at  0:37:21.18 
+ 
+Starting batch on Sat 07/29/17  0:40:34.41 (network psexec. testing support files icon echo command) 
+Finished processing at  0:40:43.14 
+ 
+Starting batch on Sat 07/29/17  0:44:52.15 (added cmd /c because not found was program) 
+Finished processing at  0:44:59.70 
+ 
+Starting batch on Sat 07/29/17  0:45:59.70 (testing non-network pse) 
+Finished processing at  0:46:12.57 
+ 
+Starting batch on Sat 07/29/17  0:52:08.15 (testing all. Added check if icon exists not to copy.) 
+64-bit Harley file copy to nv042ua2440fdw at  0:54:28.87 completed with no errors. 
+Finished processing at  0:54:28.87 
+ 
+Starting batch on Sat 07/29/17  0:55:21.75 (deleted icon from guest to test echo of "Copied icon file") 
+ 
+Starting batch on Sat 07/29/17  0:55:39.87 (deleted icon from guest to test echo of "Copied icon file") 
+64-bit Metric file copy to nv042ua2440fdw at  0:56:04.04 completed with no changes (files identical) 
+Finished processing at  0:56:04.04 
+ 
+Starting batch on Sat 07/29/17  0:56:45.26 (icon exists) 
+64-bit Metric file copy to nv042ua2440fdw at  0:57:03.22 completed with no changes (files identical) 
+Finished processing at  0:57:03.22 
+ 
+Starting batch on Sat 07/29/17  0:57:13.04 (icon exists) 
+64-bit Metric file copy to nv042ua2440fdw at  0:57:26.94 completed with no changes (files identical) 
+Finished processing at  0:57:26.94 
+ 
+Starting batch on Sat 07/29/17  0:58:20.19 (testing all.) 
+64-bit Metric file copy to nv042ua2440fdw at  0:58:43.69 completed with no changes (files identical) 
+64-bit MeTest file copy to nv042ua2440fdw at  0:58:54.58 completed with extra files detected in destination. Missing files copied. 
+Finished processing at  0:58:54.58 
+ 
+Starting batch on Sat 07/29/17  1:00:23.14 (testing all.) 
+64-bit Metric file copy to nv042ua2440fdw at  1:00:40.55 completed with no changes (files identical) 
+64-bit Harley file copy to nv042ua2440fdw at  1:00:54.75 completed with no changes (files identical) 
+64-bit MeTest file copy to nv042ua2440fdw at  1:01:08.23 completed with extra files detected in destination. No files copied. 
+64-bit HDTest file copy to nv042ua2440fdw at  1:02:13.74 completed with no errors. 
+Finished processing at  1:02:13.75 
+ 
+Starting batch on Sat 07/29/17  2:00:43.88  
+64-bit Metric file copy to nv042ua2440fdw at  2:00:59.43 completed with no changes (files identical) 
+64-bit Harley file copy to nv042ua2440fdw at  2:01:07.76 completed with no changes (files identical) 
+64-bit MeTest file copy to nv042ua2440fdw at  2:01:15.62 completed with no changes (files identical) 
+64-bit HDTest file copy to nv042ua2440fdw at  2:01:23.56 completed with no changes (files identical) 
+Finished processing at  2:01:23.56 
+ 
+Starting batch on Sat 07/29/17  2:04:16.50 (Updating Icons only) 
+64-bit Metric file copy to nv042ua2440fdw at  2:04:28.65 completed with no changes (files identical) 
+64-bit Harley file copy to nv042ua2440fdw at  2:04:32.15 completed with no changes (files identical) 
+64-bit MeTest file copy to nv042ua2440fdw at  2:04:35.35 completed with no changes (files identical) 
+64-bit HDTest file copy to nv042ua2440fdw at  2:04:39.32 completed with no changes (files identical) 
+Finished processing at  2:04:39.34 
+ 
+Starting batch on Sat 07/29/17  2:05:07.88 (Updating Icons only) 
+64-bit Metric file copy to nv042ua2440fdw at  2:05:10.97 completed with no changes (files identical) 
+64-bit Harley file copy to nv042ua2440fdw at  2:05:11.49 completed with no changes (files identical) 
+64-bit MeTest file copy to nv042ua2440fdw at  2:05:12.01 completed with no changes (files identical) 
+64-bit HDTest file copy to nv042ua2440fdw at  2:05:12.51 completed with no changes (files identical) 
+Finished processing at  2:05:12.51 

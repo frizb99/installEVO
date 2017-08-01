@@ -49,12 +49,7 @@ Starting batch on Fri 07/21/17 RNSS TEST
 32-bit Metric file copy successful to AZH12UA0321MJ2 at 13:23:38.58 with result 3 
 32-bit Harley file copy successful to AZH12UA0321MJ2 at 13:23:48.69 with result 2 
 32-bit MeTest file copy successful to AZH12UA0321MJ2 at 13:24:52.85 with result 1 
-
 Starting batch on Fri 07/21/17 
-32-bit Metric file copy successful to AZH12UA0321MJ2 at 13:35:33.08 with result 2 
-32-bit Harley file copy successful to AZH12UA0321MJ2 at 13:35:43.61 with result 2 
-32-bit MeTest file copy successful to AZH12UA0321MJ2 at 13:35:53.77 with result 0 
-32-bit HDTest file copy successful to AZH12UA0321MJ2 at 13:36:55.35 with result 1 
 64-bit Metric file copy successful to RNSSMXL2470BGF at 13:37:12.00 with result 3 
 64-bit Harley file copy successful to RNSSMXL2470BGF at 13:38:24.41 with result 1 
 64-bit MeTest file copy successful to RNSSMXL2470BGF at 13:39:25.93 with result 1 

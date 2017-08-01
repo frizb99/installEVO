@@ -1,0 +1,56 @@
+Starting batch on Tue 07/18/17  AZ07
+32-bit Harley file copy successful to AZ07MXL00518FQ at 13:44:15.99 with result 1 
+32-bit Harley file copy successful to AZ072UA9261SZJ at 14:00:30.35 with result 1 
+32-bit Harley file copy successful to AZ07MXL9480JH7 at 14:03:11.02 with result 1 
+32-bit Harley file copy successful to AZ072UA02402WF at 14:08:19.19 with result 1 
+64-bit Harley file copy successful to AZ07MXL1230J7Z at 14:18:17.15 with result 1 
+64-bit Harley file copy successful to AZ07MXL2281M2Q at 14:20:38.74 with result 1 
+32-bit Harley file copy successful to AZ07MXL9040LVG at 14:25:35.92 with result 1 
+32-bit Harley file copy successful to AZ072UA1131VGN at 14:44:59.82 with result 1 
+32-bit Harley file copy successful to AZ072UA0311GY9 at 14:49:47.83 with result 1 
+Finished processing at 14:52:19.20 
+ 
+Starting batch on Tue 07/18/17 AZ07Acct
+32-bit ?????? file copy successful to AZ07MXL9140329 at 15:50:26.15 with result 1 
+32-bit Metric file copy successful to AZ07MXL00518FQ at 16:31:42.46 with result 1 
+32-bit Metric file copy successful to AZ072UA9261SZJ at 16:33:49.42 with result 1 
+32-bit Metric file copy successful to AZ07MXL9480JH7 at 16:36:04.90 with result 1 
+32-bit Metric file copy successful to AZ072UA02402WF at 16:38:18.60 with result 1 
+64-bit Metric file copy successful to AZ07MXL1230J7Z at 16:40:33.05 with result 1 
+64-bit Metric file copy successful to AZ07MXL2281M2Q at 16:42:43.91 with result 1 
+32-bit Metric file copy successful to AZ07MXL9040LVG at 16:44:56.96 with result 1 
+32-bit Metric file copy successful to AZ072UA1131VGN at 16:47:03.58 with result 1 
+32-bit Metric file copy successful to AZ072UA0311GY9 at 16:49:12.13 with result 1 
+Finished processing at 16:49:12.24 
+ 
+Starting batch on Thu 07/20/17 
+64-bit Harley file copy successful to AZ07MXL24709ZX at  8:58:36.99 with result 1 
+64-bit Harley file copy successful to AZ072UA0491QZM at  9:00:55.79 with result 1 
+Finished processing at  9:00:55.80 
+ 
+Starting batch on Sat 07/22/17 13:47:45.63 for HD Accounting 
+32-bit MeTest file copy to AZ072UA02402WF at 13:50:31.04 completed with no errors. 
+32-bit HDTest file copy to AZ072UA02402WF at 13:52:38.72 completed with no errors. 
+32-bit MeTest file copy to AZ072UA0311GY9 at 13:53:11.79 completed with no errors. 
+32-bit HDTest file copy to AZ072UA0311GY9 at 13:55:00.87 completed with no errors. 
+Finished processing at 13:55:00.88 
+64-bit Metric file copy to AZ072UA0311RV5 at 17:48:04.57 completed with no errors. 
+64-bit MeTest file copy to AZ072UA0311RV5 at 17:56:36.58 completed with no errors. 
+64-bit HDTest file copy to AZ072UA0311RV5 at 17:56:48.73 completed with no errors. 
+32-bit HDTest file copy to AZ072UA1131VGN at 18:01:54.23 completed with no errors. 
+32-bit MeTest file copy to AZ072UA1131VGN at 18:01:57.86 completed with no errors. 
+32-bit MeTest file copy to AZ072UA9261SZJ at 18:03:31.53 completed with no errors. 
+32-bit HDTest file copy to AZ07MXL00518FQ at 18:03:35.11 completed with no errors. 
+32-bit MeTest file copy to AZ07MXL00518FQ at 18:04:51.43 completed with no errors. 
+64-bit HDTest file copy to AZ07MXL1230J7Z at 18:05:11.63 completed with no errors. 
+64-bit MeTest file copy to AZ07MXL1230J7Z at 18:06:13.38 completed with no errors. 
+64-bit HDTest file copy to AZ07MXL2281M2Q at 18:06:44.57 completed with no errors. 
+64-bit MeTest file copy to AZ07MXL2281M2Q at 18:07:28.16 completed with no errors. 
+32-bit HDTest file copy to AZ07MXL9040LVG at 18:08:23.08 completed with no errors. 
+32-bit MeTest file copy to AZ07MXL9040LVG at 18:08:32.74 completed with no errors. 
+32-bit MeTest file copy to AZ07MXL9140329 at 18:09:59.05 completed with no errors. 
+32-bit HDTest file copy to AZ07MXL9140329 at 18:09:59.30 completed with no errors. 
+32-bit MeTest file copy to AZ07MXL9480D4T at 18:11:35.97 completed with no errors. 
+32-bit HDTest file copy to AZ07MXL9480D4T at 18:11:36.34 completed with no errors. 
+32-bit MeTest file copy to AZ07MXL9480JH7 at 18:13:12.78 completed with no errors. 
+32-bit HDTest file copy to AZ07MXL9480JH7 at 18:13:13.17 completed with no errors. 

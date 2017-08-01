@@ -49,3 +49,40 @@ Starting batch on Fri 07/28/17  0:04:09.20
 64-bit Metric file copy to AZ08MXL9220W66 at  0:57:03.90 completed with no errors. 
 64-bit MeTest file copy to AZ08MXL9220W66 at  0:58:03.93 completed with no errors. 
 Finished processing at  0:58:03.94 
+ 
+Starting batch on Sat 07/29/17  2:33:07.25 (Updating Icons only) 
+32-bit Metric file copy to AZ082UA0030H2W at  2:33:08.26  
+32-bit MeTest file copy to AZ082UA0030H2W at  2:33:08.99  
+32-bit Metric file copy to AZ082UA01011SY at  2:33:10.07  
+32-bit MeTest file copy to AZ082UA01011SY at  2:33:10.78  
+32-bit Metric file copy to AZ082UA01512Z1 at  2:33:11.78  
+32-bit MeTest file copy to AZ082UA01512Z1 at  2:33:12.43  
+64-bit Metric file copy to AZ082UA023206D at  2:33:13.41  
+64-bit MeTest file copy to AZ082UA023206D at  2:33:14.05  
+32-bit Metric file copy to AZ082UA02402TF at  2:33:15.00  
+32-bit MeTest file copy to AZ082UA02402TF at  2:33:15.67  
+64-bit Metric file copy to AZ082UA0320GCC at  2:33:17.01  
+64-bit MeTest file copy to AZ082UA0320GCC at  2:33:17.65  
+32-bit Metric file copy to AZ082UA0421Y8M2 at  2:33:18.59  
+32-bit MeTest file copy to AZ082UA0421Y8M2 at  2:33:19.25  
+64-bit Metric file copy to AZ082UA3411W6H at  2:33:20.43  
+64-bit MeTest file copy to AZ082UA3411W6H at  2:33:21.07  
+64-bit Metric file copy to AZ082UA3411W6Q at  2:33:21.97  
+64-bit MeTest file copy to AZ082UA3411W6Q at  2:33:22.72  
+32-bit Metric file copy to AZ082UA9251PHH at  2:33:23.95  
+32-bit MeTest file copy to AZ082UA9251PHH at  2:33:24.62  
+64-bit Metric file copy to AZ082UA92600ZM at  2:33:25.64  
+64-bit MeTest file copy to AZ082UA92600ZM at  2:33:26.36  
+32-bit Metric file copy to AZ082UA92609HR at  2:33:27.29  
+32-bit MeTest file copy to AZ082UA92609HR at  2:33:28.03  
+32-bit Metric file copy to AZ08MXL0080CZP at  2:33:30.08  
+32-bit MeTest file copy to AZ08MXL0080CZP at  2:33:30.75  
+32-bit Metric file copy to AZ08MXL01116TN at  2:33:32.48  
+32-bit MeTest file copy to AZ08MXL01116TN at  2:33:33.19  
+64-bit Metric file copy to AZ08MXL0151Z6K at  2:33:34.73  
+64-bit MeTest file copy to AZ08MXL0151Z6K at  2:33:35.39  
+64-bit Metric file copy to AZ08MXL0351JK6 at  2:33:37.07  
+64-bit MeTest file copy to AZ08MXL0351JK6 at  2:33:37.72  
+32-bit Metric file copy to AZ08MXL0481GFV at  2:33:39.62  
+32-bit MeTest file copy to AZ08MXL0481GFV at  2:33:40.27  
+Finished processing at  2:33:40.69 

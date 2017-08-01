@@ -18,34 +18,51 @@ if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )
 CD /D "%~dp0"
 :: BatchGotAdmin (Run as Admin code ends)
 pushd %~dp0
-
-
 setlocal enabledelayedexpansion
 set folderName=
 set storeType=
-
-echo Please select install type:
-echo M    Metric ^& Indian EVO
-echo H    Harley EVO
-echo TM   Test/sandbox EVO for Metric stores
-echo TH   Test/sandbox EVO for Harley stores
-echo A    All of the above
-set /p installType="Install type? [M,H,TM,TH,A]"
-if /i _%installType% EQU _M set storeType=Metric && set folderName=LightspeedEVO
-if /i _%installType% EQU _H set storeType=Harley && set folderName=LightspeedEVO-HD
-if /i _%installType% EQU _TM set storeType=MeTest && set folderName=LightspeedEVO-TestMetric
-if /i _%installType% EQU _TH set storeType=HDTest && set folderName=LightspeedEVO-TestHD
-if /i _%installType% EQU _A set storeType=All
+set roboOptions=/E /R:2 /W:10 /NDL /XO 
+cls
+echo Run this command from the server in the same network as the computer you want
+echo to install on. This script will robocopy the source to the Program Files
+echo folder, update the permissions of the folder to Domain Users, and create a
+echo shortcut on the Public Users desktop ^(C:\Users\Public\Desktop^)
+echo New 7/28: Sets permissions for Domain Users instead of Everyone.
+echo           Added option to install Test and Production.
+echo           I've also made sure the icon stays white.
+echo.
+echo   Please select install type:
+echo.
+echo   M    Metric ^& Indian EVO
+echo   H    Harley EVO
+echo   TM   Test/sandbox EVO for Metric stores
+echo   TH   Test/sandbox EVO for Harley stores
+echo   MTM  Metric and Test Metric EVO
+echo   HTH  Harley and Test Harley EVO
+echo   A    All of the above
+echo.
+set /p installType="Install type? (M,H,TM,TH,MTM,HTH,A)"
+if /i "%installType%" EQU "M" (set storeType=Metric & set folderName=LightspeedEVO)
+if /i "%installType%" EQU "H" (set storeType=Harley & set folderName=LightspeedEVO-HD)
+if /i "%installType%" EQU "TM" (set storeType=MeTest & set folderName=LightspeedEVO-TestMetric)
+if /i "%installType%" EQU "TH" (set storeType=HDTest & set folderName=LightspeedEVO-TestHD)
+if /i "%installType%" EQU "MTM" (set storeType=MTM)
+if /i "%installType%" EQU "HTH" (set storeType=HTH)
+if /i "%installType%" EQU "A" (set storeType=All)
 if not defined storeType goto :eof
 
-set roboOptions=/E /R:2 /W:10 /NDL /XO 
-
-if %storeType% equ All (
-  call :main Metric LightspeedEVO
-  call :main Harley LightspeedEVO-HD
-  call :main MeTest LightspeedEVO-TestMetric
-  call :main HDTest LightspeedEVO-TestHD
-) else call :main %storeType% %folderName%
+  if %storeType% equ All (
+    call :main Metric LightspeedEVO
+    call :main Harley LightspeedEVO-HD
+    call :main MeTest LightspeedEVO-TestMetric
+    call :main HDTest LightspeedEVO-TestHD
+  ) else if %storeType% equ MTM (
+    call :main Metric LightspeedEVO
+    call :main MeTest LightspeedEVO-TestMetric
+  ) else if %storeType% equ HTH (
+    call :main Harley LightspeedEVO-HD
+    call :main HDTest LightspeedEVO-TestHD
+  ) else call :main %storeType% %folderName%
 
 exit /b
 
@@ -61,22 +78,29 @@ set folderName=%2
     set type=32-bit
   )
 set source=.\%folderName%
-md "C:\%pgmFiles%"
-icacls "C:\%pgmFiles%" /grant Everyone:^(OI^)^(CI^)F 
+set iconFile=C:\!pgmFiles!\ls.ico
+if %storeType:~-4% EQU Test set iconFile=C:\Support\lswhite.ico
+
+if not exist "C:\%pgmFiles%" md "C:\%pgmFiles%"
+if not exist "C:\Support" md "C:\Support"
+@pause
+:: Copy lswhite icon to C:\support if it doesnt already exist.
+if not exist "C:\Support\lswhite.ico" copy "%source%\..\Support Files\lswhite.ico" "C:\Support"
+icacls "C:\%pgmFiles%" /grant "RIDENOW\Domain Users":^(OI^)^(CI^)F 
 robocopy "%source%" "C:\%pgmFiles%" * %roboOptions%
 set roboresult=!errorlevel!
 if !roboresult! LEQ 7 (
   rem the next line appends all characters from folderName after the 13th char (after "EVO")
   rem this is so we can create the shortcut name with a space in it.
   set filename=Lightspeed EVO%folderName:~13%.lnk
-  call shortcutJS.bat -linkfile "C:\Users\Public\Desktop\!filename!" -target "C:\%pgmFiles%\Lightspeed.bat" -workingdirectory "C:\%pgmFiles%" -windowstyle 7 -iconlocation "C:\%pgmFiles%\ls.ico",0 -description "Lightspeed Dealer Management System"
-  icacls "C:\%pgmFiles%" /grant Everyone:^(OI^)^(CI^)F /t /q
-  if not exist C:\LSTemp mkdir C:\LSTemp && icacls C:\LSTemp /grant Everyone:^(OI^)^(CI^)F /t /q
+  call shortcutJS.bat -linkfile "C:\Users\Public\Desktop\!filename!" -target "C:\%pgmFiles%\Lightspeed.bat" -workingdirectory "C:\%pgmFiles%" -windowstyle 7 -iconlocation "%iconFile%",0 -description "Lightspeed Dealer Management System"
+  icacls "C:\%pgmFiles%" /grant "RIDENOW\Domain Users":^(OI^)^(CI^)F /t /q
+  if not exist C:\LSTemp mkdir C:\LSTemp & icacls C:\LSTemp /grant Everyone:^(OI^)^(CI^)F /t /q
 )
-call :writeError
+call :displayResults
 exit /b
 
-:writeError
+:displayResults
 set description=!roboresult!
 if !roboresult! EQU 16 set description=***FATAL ERROR***
 if !roboresult! EQU 15 set description=OKCOPY + FAIL + MISMATCHES + XTRA

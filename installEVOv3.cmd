@@ -68,7 +68,6 @@ if /i "%installType%" EQU "HTH" (set storeType=HTH)
 if /i "%installType%" EQU "A" (set storeType=All)
 
 if not defined storeType goto :eof
-set ins
 call :printStoreIP
 set /p ipOctet="Enter a unique IP address octet for %serverName:~0,4% (optional) "
 
@@ -104,8 +103,6 @@ exit /b
 set pc=%1
 set storeType=%2
 set folderName=%3
-set iconFile=ls.ico
-if %storeType:~-4% EQU Test set iconFile=lswhite.ico
 rem icacls LightspeedEVO-NV07 /grant RIDENOW\Domain Users:(OI)(CI)(M) /t
 
   if exist "\\%pc%\c$\Program Files (x86)" (
@@ -116,25 +113,29 @@ rem icacls LightspeedEVO-NV07 /grant RIDENOW\Domain Users:(OI)(CI)(M) /t
     set pgmFiles=Program Files\%folderName%
     set type=32-bit
   )
+
 set source=\\%serverName%\Support Files\EVO\%folderName%
+set iconFile=C:\!pgmFiles!\ls.ico
+if %storeType:~-4% EQU Test set iconFile=C:\Support\lswhite.ico
 rem @echo storetype=%storetype%
 rem @echo foldername=%foldername%
 rem echo pgmfiles !pgmfiles!
 rem echo $pgmfiles %pgmfiles%
 rem echo filename=%filename%
-md "\\%pc%\C$\%pgmFiles%"
-if not exist \\%pc%\c$\Support mkdir \\%pc%\C$\Support
+if not exist "\\%pc%\C$\%pgmFiles%" md "\\%pc%\C$\%pgmFiles%"
+if not exist "\\%pc%\c$\Support" mkdir "\\%pc%\C$\Support"
+:: Copy lswhite icon to C:\support if it doesnt already exist.
+if not exist \\%pc%\C$\Support\lswhite.ico psexec \\%pc% -u %pseUser% -p %psePass% -e -n 10 -nobanner cmd /c  copy "%source%\..\Support Files\lswhite.ico" "C:\Support"
 psexec \\%pc% -s -n 10 -nobanner icacls "C:\!pgmFiles!" /grant "RIDENOW\Domain Users":^(OI^)^(CI^)F 
 psexec \\%pc% -u %pseUser% -p %psePass% -e -n 10 -nobanner robocopy "%source%" "C:\!pgmFiles!" * %roboOptions% 
-
 set roboresult=!errorlevel!
 if !roboresult! LEQ 7 (
   rem the next line appends all characters from folderName after the 13th char (after "EVO")
   rem this is so we can create the shortcut name with a space in it.
   set filename=Lightspeed EVO%folderName:~13%.lnk
-  call shortcutJS.bat -linkfile "\\%pc%\C$\Users\Public\Desktop\!filename!" -target "C:\!pgmFiles!\Lightspeed.bat" -workingdirectory "C:\!pgmFiles!" -windowstyle 7 -iconlocation "C:\!pgmFiles!\%iconFile%",0 -description "Lightspeed Dealer Management System"
+  call shortcutJS.bat -linkfile "\\%pc%\C$\Users\Public\Desktop\!filename!" -target "C:\!pgmFiles!\Lightspeed.bat" -workingdirectory "C:\!pgmFiles!" -windowstyle 7 -iconlocation "%iconFile%",0 -description "Lightspeed Dealer Management System"
   psexec \\%pc% -s -n 10 -nobanner icacls "C:\!pgmFiles!" /grant "RIDENOW\Domain Users":^(OI^)^(CI^)F /t /q
-  if not exist \\%pc%\c$\LSTemp mkdir \\%pc%\C$\LSTemp && psexec \\%pc% -s -n 10 -nobanner icacls C:\LSTemp /grant Everyone:^(OI^)^(CI^)F /t /q 
+  if not exist \\%pc%\c$\LSTemp mkdir \\%pc%\C$\LSTemp & psexec \\%pc% -s -n 10 -nobanner icacls C:\LSTemp /grant Everyone:^(OI^)^(CI^)F /t /q 
   call :writeSuccess
 ) else call :writeError
 exit /b
